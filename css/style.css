@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    padding: 15px;
+}
+
+#logo{
+    height: 100%;
+    vertical-align: middle;
+}
+
+#testo-logo{
+    font-size: 40px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+body{
+    background-color: rgb(107, 129, 255);
+    font-family: arial, sans serif;
+}
+
+.container{
+    width: 60%;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-pieno{
+    color: #fff;
+    background-color: #47adf1;
+    border-color: #47adf1;
+}
+
+.btn-vuoto{
+    color: lightgray;
+    background-color: #fff;
+    border-color: lightgray;
+}
+
+.top{
+    border-bottom: 2px solid rgb(107, 129, 255) ;
+    padding: 10px 60px;
+}
+
+.tasks{
+    padding: 30px 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 8px;
+}
+
+li h4:before{
+    content: '\25BE';
+}
+
+.cerchio{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-style:solid ;
+    border-width: 1px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.pos{
+    color: green;
+    border-color: green;
+}
+
+.pos::before{
+    content: '\2713';
+}
+
+.neg{
+    color: red;
+    border-color: red;
+}
+
+.neg::before{
+    content: '\2717'
+}
+
+.tag{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.tag-type-blu{
+    background-color: blue;
+}
+
+.tag-type-viola{
+    background-color: violet;
+}
