@@ -7,6 +7,7 @@
 header{
     height: 80px;
     padding: 15px;
+    background-color: #fff;
 }
 
 #logo{
@@ -66,7 +67,11 @@ li{
     padding: 8px;
 }
 
-li h4:before{
+li li{
+    padding: 8px 0px;
+}
+
+li h3:before{
     content: '\25BE';
 }
 
@@ -113,4 +118,20 @@ li h4:before{
 
 .tag-type-viola{
     background-color: violet;
+}
+
+.tag-type-green{
+    background-color: lightgreen;
+}
+
+.tag-type-orange{
+    background-color: orange;
+}
+
+.tag-type-fucsia{
+    background-color: fuchsia;
+}
+
+.tag-type-lime{
+    background-color: lime;
 }
